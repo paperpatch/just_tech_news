@@ -39,7 +39,7 @@ Uses MySQL and MySQL2 tools for this application:
 - [Sequelize](https://sequelize.org/)
   - Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. Features solid transaction support, relations, eager and lazy loading, read replication and more.
 
-`npm init`
+`npm init` or `npm init -y`
 
 `npm install inquirer`
 

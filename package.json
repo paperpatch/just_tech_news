@@ -1,0 +1,26 @@
+{
+  "name": "just_tech_news",
+  "version": "1.0.0",
+  "description": "News-based site with user-models database. # Just Tech News ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paperpatch/just_tech_news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paperpatch/just_tech_news/issues"
+  },
+  "homepage": "https://github.com/paperpatch/just_tech_news#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
