@@ -1,9 +1,9 @@
-# just_tech_news
-News-based site with user-models database.
 # Just Tech News
 ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
-Created a command-line application to manage a company's employee database using Node.js, Inquirer, and MySQL. Uses Content Management Systems (CMS) to view and interact with information stored in databases.
+News-based site with user-models database.
+
+This repository is both a command-line application to manage a company's employee database using Node.js, Inquirer, and MySQL.. Uses Content Management Systems (CMS) to view and interact with information stored in databases.
 
 ## Table of Contents
 
@@ -21,10 +21,6 @@ The database uses the following npm:
 - [Node Package Manager](https://nodejs.org/en/)
   - Run `npm install` in order to install the following npm package dependencies as specified in the `package.json`.
   - This will also help install express on your system and manage any other dependencies in your script.
-- [Inquirer](https://www.npmjs.com/package/inquirer)
-  - Inquirer provides an easy way to capture user input in your Node.jS. Provides several methods for asking questions and returning answers form the user that can be accessed by a `.then` promise function.
-- [Console Table](https://www.npmjs.com/package/console.table)
-  - Adds console.table method for convenience. Prints MySQL rows to the console.
 - [Dotenv](https://www.npmjs.com/package/dotenv)
   - Loads environment variables from a `.env` file into `process.env`. Sync .env files between machines, environments, and team members.
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
@@ -38,84 +34,30 @@ Uses MySQL and MySQL2 tools for this application:
   - An npm package for Node.js with a focus on performance. Connects Node.js applications to the MySQL database.
 - [Sequelize](https://sequelize.org/)
   - Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. Features solid transaction support, relations, eager and lazy loading, read replication and more.
+- [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
+  - Logicless templating language that keeps the View and the code separate and compiles templates into JavaScript functions. An extension to the Mustache templating language.
+- [Express-Session](https://www.npmjs.com/package/express-session)
+  - Express.js middleware that uses sessions, mechanism that helps applications to determine whether multiple requests came form the same client. Developers may assign every user a unique session so that their application can store the user state, and thus authenticate users.
+- [Connect Session Store using Sequelize](https://www.npmjs.com/package/connect-session-sequelize)
+  - Provides applications with a scalable store for sessions. The express-session package's default server-side session storage, `MemoryStore`, is purposely not designed for a production environment, will leak memory under most conditions, doesn't scale past a single process, and is only meant for debugging and developing. The connect-session-sequelize package resolves these issues and is compatible with the Sequelize ORM.
 
-`npm init` or `npm init -y`
+This repository uses the following server:
 
-`npm install inquirer`
-
-`npm install --save mysql2`
-
-`npm install --save sequelize`
-
-`npm install bcrypt`
-
-To access the SQL database, create and use the database by opening up the correct path terminal. Source populates the data in your database. In your terminal, type:
-
-`mysql -u root -p` and enter the password `sql21` when prompt.
-
-`CREATE DATABASE employee_tracker;`
-
-`USE employee_tracker;`
-
-`source db/schema.sql;`
-
-`source db/seeds.sql;`
-
-`SELECT * FROM employee;`
-
-`SELECT * FROM role;`
-
-`SELECT * FROM department;`
+- [Heroku](https://heroku.com/)
+  - A cloud application platform service that enables developers to build, run and operate applications entirely in the cloud.
+- [JawsDB Add-On](https://elements.heroku.com/addons/jawsdb)
+  - Uses JawsDB MySQL, a Heroku add-on, that provides a fully functional MySQL database server for use with Heroku application.
 
 ## Usage
 
 :computer:
 
-mySQL prompts to start (see above for setup instructions):
+Go to [Just Tech News](https://polar-plateau-12344.herokuapp.com/) and navigate through seeded articles and links. Note that links are broken as this repository is a learning tutorial exercise.
 
-`mysql -u root -p` (Use password `sql21` for this exercise)
-
-`USE election;`
-
-
-Command-line prompts:
-
-Run `npm start` or `node app.js` in the command line to start the prompts.
-
-The following choices will be displayed to you:
-
-`View all Departments`
-
-`View all Roles`
-
-`View all Employees`
-
-`View employees by Managers`
-
-`View employees by Departments`
-
-`Add Department`
-
-`Add Role`
-
-`Add Employee`
-
-`Update Employee's Role`
-
-`Update Employee's Manager`
-
-`Delete a Department`
-
-`Delete a Role`
-
-`Delete an Employee`
-
-`View Total Utilized Budget`
-
-Each choice will either display table of data values or prompt you into selecting further choices, such as selecting an Employee's ID to delete an Employee. A demonstration can be found below:
-
-![!demo gif](./assets/employee_tracker_demo.gif)
-
+User is able to:
+- Create a new account to post their own title and links to a website.
+- Edit and comment their own posts.
+- Upvote and comment other posted newslink provided the user is logged in.
 
 ## Contributing
 
@@ -126,5 +68,3 @@ Each choice will either display table of data values or prompt you into selectin
 ## License
 
 :receipt:
-
-This project is licensed under MIT.
