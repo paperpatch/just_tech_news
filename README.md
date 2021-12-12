@@ -1,5 +1,4 @@
 # Just Tech News
-![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
 News-based site with user-models database.
 
