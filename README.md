@@ -1,8 +1,6 @@
 # Just Tech News
 
-News-based site with user-models database.
-
-This repository is both a command-line application to manage a company's employee database using Node.js, Inquirer, and MySQL.. Uses Content Management Systems (CMS) to view and interact with information stored in databases.
+[News-based site](https://polar-plateau-12344.herokuapp.com/) with user-models database. An tutorial learning exercise to use `Express Handlebars` and `Express-Session`.
 
 ## Table of Contents
 
