@@ -1,6 +1,6 @@
 # Just Tech News
 
-[News-based site](https://polar-plateau-12344.herokuapp.com/) with user-models database. An tutorial learning exercise to use `Express Handlebars` and `Express-Session`.
+[News-based site](https://just-tech-news-proj.herokuapp.com/) with user-models database. An tutorial learning exercise to use `Express Handlebars` and `Express-Session`.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ This repository uses the following server:
 
 :computer:
 
-Go to [Just Tech News](https://polar-plateau-12344.herokuapp.com/) and navigate through seeded articles and links. Note that links are broken as this repository is a learning tutorial exercise.
+Go to [Just Tech News](https://just-tech-news-proj.herokuapp.com/) and navigate through seeded articles and links. Note that links are broken as this repository is a learning tutorial exercise.
 
 User is able to:
 - Create a new account to post their own title and links to a website.
